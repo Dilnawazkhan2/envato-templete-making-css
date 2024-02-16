@@ -1,0 +1,441 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+
+}
+.page1{
+    background-image: url(image/rahul-bhogal-Ub9LkIWxyec-unsplash.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-image: fixed;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    height: 100px;
+    margin: 0px 5%;
+    padding-top: 1%;
+}
+
+.part2 ul li{
+    display: inline-block;
+    align-items: center;
+    padding: 5px;
+    font-size: 12px;
+    
+    
+   
+}
+.part2 ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.part2 ul li a:hover{
+    color:#F5AF00 ;
+}
+.part2 ul i{
+    display: none;
+}
+.text p{
+    font-size: 70px;
+    font-weight: 400px;
+    margin-bottom: 30px;
+    word-spacing: 32px;
+}
+.text h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 53px;
+}
+.text{
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+}
+.text button{
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: bolder;
+    background-color: #F5AF00;
+    border: hidden;
+    color: white;
+    transition: 0.5s;
+}
+.text button:hover{
+    background-color: rgb(51, 50, 50);
+}
+.page2{
+    text-align: center;
+}
+.page3{
+    text-align: center;
+    padding-bottom: 7%;
+    background-color: rgb(247, 251, 255);
+}
+.text2{
+    margin-top: 6%;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+#pgtx1{
+    font-size: 32px;
+    font-weight: 100;
+    margin-bottom: 35px;
+    
+}
+#pgtx2{
+    color: gray;
+    line-height: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.icons{
+    margin-top: 35px;
+    display: flex;
+    
+}
+.pgi{
+    width: 25%;
+    line-height: 25px;
+}
+.pgi h2{
+    margin: 25px 0px;
+}
+.pgi a{
+    font-size: 50px;
+    color: #F5AF00;
+}
+.icons .pgi p{
+    color: gray;
+    
+}
+.picref{
+    margin-top: 60px;
+   
+    word-spacing: 10px;
+}
+.picref p{
+    color: gray;
+    margin-bottom:50px ;
+}
+.picref p a{
+    text-decoration: none;
+    color: gray;
+    transition: 0.3s;
+}
+.picref p a:hover{
+    color: #F5AF00;
+
+}
+.pics img{
+    margin: 12px;
+    transition: 0.3s;
+
+}
+
+.pics img:hover{
+    
+    color: #F5AF00;
+    overflow: hidden;
+    
+    opacity: 0.35;
+    background-color: #f5af00;   
+}
+.page4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.txt1{
+    width: 35%;
+    margin: 0px 100px;
+    
+}
+.range{
+    width: 45%;
+    padding-top:5%; 
+    margin-top: 20px;
+    
+    
+}
+.range .line{
+    border-radius: 50px;
+    margin: 12px 0px 50px 0px;
+    width: 90%;
+    background-color: #F5AF00;
+    height: 5px;
+    overflow: visible;
+}
+.range p{
+    font-size: 12px;
+    font-weight: 800;
+    margin-top: 3%;
+}
+.txt1 h1{
+    padding-top: 10px;
+    font-size: 250%;
+    font-weight:100;
+    margin-bottom: 50px;
+}
+.txt1 p{
+    line-height: 25px;    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: gray;
+}
+.justline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30%;
+    background-color: #F5AF00;
+    color: white;
+    
+}
+
+.justline a button{
+    padding: 20px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #F5AF00;
+    margin-right: 120px;
+    border-color: white;
+    font-size: 12px;
+    padding: 20px 40px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.justline a button:hover{
+    background-color: white;
+    color: #F5AF00;
+}
+.justline h1{
+    margin-left: 100px;
+    font-weight: 300;
+}
+.page5{
+    text-align: center;
+    background-color: aliceblue;
+}
+.clients{
+    height: 180hv;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 500px;
+    
+}
+.clientimg1 img{
+    width: 4vw;
+    border-radius: 50%;
+    height: 8vh;
+    object-fit: cover;
+    margin-bottom: 100px;
+    margin-left: 80px
+}
+.clientimg2 img{
+    size: 2%;
+    width: 4vw;
+    height: 8vh;
+    border-radius: 50%;
+    object-fit: cover;
+    
+    margin-bottom: 100px;
+    margin-left: 80px
+
+}
+.comment{
+    margin: 50px;
+    text-align: left;
+}
+.comment h2{
+    font-size: larger;
+    
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.comment h3{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: small;
+
+}
+i{
+    color: #F5AF00;
+}
+.page6{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.i1{
+    width: 33%;
+    margin-left: 30px;
+    
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+.i1 i{
+    font-size: 50px;
+    margin: 70px 0px 30px 0px;
+
+}
+.i1 h5{
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+.i1 p{
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    color: gray;
+}
+footer .f1 i{
+    padding: 20px 0px;
+    font-size: small;
+    color: gray;
+    
+}
+footer .f1{
+    margin-right: 150px;
+}
+hr{
+    color: rgb(253, 250, 246);
+}
+footer p{
+    margin-left: 100px;
+    font-size: 12px;
+}
+@media (max-width:600px) {
+    
+    
+    .page1{
+        height: 50vh;
+    }
+    .part2{
+        align-items: center;
+    } 
+    .part2 ul{
+        
+        flex-wrap: nowrap;
+    }  
+    .part2 ul li {
+        
+        flex-wrap: nowrap;
+        
+       
+
+    }
+    .part2 ul li a{
+        
+        flex-wrap: nowrap;
+        font-size: 1.5vw;
+    }
+    .text p {
+        font-size: x-large;
+        padding: 0vw 5vw;
+        
+
+    }
+    .part1 ul i{
+        display: block;
+        
+    }
+    nav{
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .text p{
+    width:100%;
+        
+    }
+    .icons {
+        font-size: 70%;
+        margin: 0px 10px;
+    
+        
+    }
+    .page4{
+        flex-direction: column;
+        align-items: start;
+    }
+    .txt1{
+        width: 90%;
+        margin-left: calc(20% - 100px);
+        margin-top: 5%;
+        text-align: center;
+    }
+    .txt1 h1{
+        text-overflow: inherit;
+        flex-wrap: nowrap;
+        font-size: 30px;
+        width: 100%;
+        
+        
+    }
+    .txt1 .range{
+        align-items: center;
+        margin-left: 100px;
+    }
+    .range p,.line p{
+        margin-left: 20px;
+    }
+    .line{
+        
+        padding:0px 100%;
+    }
+    .justline h1{
+        font-size: 15px;
+        text-align: start;
+        padding-right: 5vw;
+        justify-content: center;
+    }
+    .justline{
+        height: 10vh;
+        
+    }
+    .justline a button{
+        padding:10px 30px ;
+        font-size: 8px;
+    }
+    .page6{
+        font-size: 60%;
+        margin: 0px 10px;
+    }
+    footer{
+        height: 5vh;
+    }
+    .btxt p{
+        font-size: 10px;
+
+    }
+}
